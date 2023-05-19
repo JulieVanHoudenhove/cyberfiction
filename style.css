@@ -9,6 +9,31 @@ html, body {
     width: 100%;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    padding: 0 30px;
+}
+
+nav>h3 {
+    font-family: 'gilroy';
+    font-weight: 400;
+    font-size: 22px;
+}
+
+nav>button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
 #main {
     position: relative;
     overflow: hidden;
