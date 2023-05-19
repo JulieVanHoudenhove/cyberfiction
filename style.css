@@ -152,6 +152,22 @@ canvas {
     background-color: burlywood;
 }
 
+#page3>#text1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+#page3>#text1>h3 {
+    font-weight: 400;
+    color: #7c7c7c;
+}
+
+#page3>#text1>h1 {
+    line-height: 1.5;
+    font-size: 60px;
+}
+
 #page4 {
     position: relative;
     height: 100vh;
