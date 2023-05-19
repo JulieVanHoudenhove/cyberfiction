@@ -109,7 +109,7 @@ canvas {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: plum;
+    background-color: #f1f1f1;
 }
 
 #page2>#left-text{
@@ -126,6 +126,23 @@ canvas {
 #page2>#left-text>h1 {
     line-height: 1.5;
     font-size: 50px;
+}
+
+#page2>#right-text {
+    position: absolute;
+    top: 47%;
+    right: 10%;
+    text-align: end;
+}
+
+#page2>#right-text>h1 {
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+#page2>#right-text>h3 {
+    color: #7c7c7c;
+    font-weight: 400;
 }
 
 #page3 {
