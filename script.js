@@ -421,7 +421,7 @@ gsap.to("#page2",{
         trigger:`#page2`,
         start:`top top`,
         end:`bottom top`,
-        markers:true,
+        // markers:true,
         pin:true,
         scroller:`#main`,
     }
@@ -432,7 +432,7 @@ gsap.to("#page3",{
         trigger:`#page3`,
         start:`top top`,
         end:`bottom top`,
-        markers:true,
+        // markers:true,
         pin:true,
         scroller:`#main`,
     }
@@ -443,7 +443,7 @@ gsap.to("#page4",{
         trigger:`#page4`,
         start:`top top`,
         end:`bottom top`,
-        markers:true,
+        // markers:true,
         pin:true,
         scroller:`#main`,
     }

@@ -18,7 +18,48 @@ html, body {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: #000;
+    background-color: #f1f1f1;
+}
+
+#loop {
+    position: absolute;
+    top: 30%;
+    display: flex;
+    height: 25%;
+    width: 100%;
+    font-size: 100px;
+    white-space: nowrap;
+    font-family: 'gilroy';
+}
+
+#loop>h1 {
+    font-weight: 400;
+    animation-name: h1-animation;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#loop>h1>span {
+    -webkit-text-stroke: 1.2px #000;
+    color: transparent;
+    font-weight: 500;
+}
+
+@keyframes h1-animation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+canvas {
+    position: relative;
+    z-index: 9;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 #page2 {
@@ -37,19 +78,4 @@ html, body {
     height: 100vh;
     width: 100vw;
     background-color: palegreen;
-}
-
-canvas {
-    position: relative;
-    z-index: 9;
-    max-width: 100vw;
-    max-height: 100vh;
-}
-
-#loop {
-    position: absolute;
-    top: 50%;
-    height: 25%;
-    width: 100%;
-    background-color: palevioletred;
 }
